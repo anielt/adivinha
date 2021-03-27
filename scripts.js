@@ -7,7 +7,7 @@
 
   
 while (chances>0){
-      var chute = parseInt(prompt("Adivinhe o número (entre 1 e 10) que a máquina pensou:"))
+      var chute = parseInt(prompt("Você tem 3 chances para acertar o número (entre 1 e 10) que a máquina pensou:"))
       if (zeroaDez == chute) {
         document.write("<h2>" + "Parabéns! Você adivinhou que era " + zeroaDez + "! E ganhou 10 pontos!" + "</h2>")
         break
